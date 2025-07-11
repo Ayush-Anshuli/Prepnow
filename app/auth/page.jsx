@@ -19,7 +19,7 @@ function page() {
           <AuthCard />
         </div>
         {/* Right: Illustration */}
-        <div className="auth-illustration" style={{ flex: 1, background: '#2563eb', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="auth-illustration" style={{ flex: 1, background: '#2563eb', display: 'flex', alignItems: 'center', justifyContent: 'center' ,margin:"20px" , borderRadius:"20px"}}>
           <img src="/assets/Login-img.jpg" alt="Login Illustration" style={{ maxWidth: '80%', maxHeight: '80%', borderRadius: '1.5rem', boxShadow: '0 8px 32px 0 rgba(31,38,135,0.37)' }} />
         </div>
       </div>
